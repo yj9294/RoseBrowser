@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A509AB2A99CDDE0018C79D /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = C7A509AA2A99CDDE0018C79D /* GoogleMobileAds */; };
+		C7A509AD2A99CE280018C79D /* GADCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A509AC2A99CE280018C79D /* GADCommand.swift */; };
+		C7A509AF2A99CE660018C79D /* GADLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A509AE2A99CE660018C79D /* GADLoad.swift */; };
+		C7A509B12A99CEDD0018C79D /* GADNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A509B02A99CEDD0018C79D /* GADNativeView.swift */; };
+		C7A509B32A99CF120018C79D /* GADState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A509B22A99CF120018C79D /* GADState.swift */; };
+		C7A509B52A99D4820018C79D /* admob.json in Resources */ = {isa = PBXBuildFile; fileRef = C7A509B42A99D4820018C79D /* admob.json */; };
+		C7FFCE752A94C4B200B7CE9B /* RoseBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE742A94C4B200B7CE9B /* RoseBrowserApp.swift */; };
+		C7FFCE772A94C4B200B7CE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE762A94C4B200B7CE9B /* ContentView.swift */; };
+		C7FFCE792A94C4B300B7CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FFCE782A94C4B300B7CE9B /* Assets.xcassets */; };
+		C7FFCE7C2A94C4B300B7CE9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FFCE7B2A94C4B300B7CE9B /* Preview Assets.xcassets */; };
+		C7FFCE832A95A86400B7CE9B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE822A95A86400B7CE9B /* Store.swift */; };
+		C7FFCE852A95A88600B7CE9B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE842A95A88600B7CE9B /* AppState.swift */; };
+		C7FFCE872A95AA6100B7CE9B /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE862A95AA6100B7CE9B /* AppAction.swift */; };
+		C7FFCE892A95AA7800B7CE9B /* AppCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE882A95AA7800B7CE9B /* AppCommand.swift */; };
+		C7FFCE8B2A95B22000B7CE9B /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE8A2A95B22000B7CE9B /* LaunchView.swift */; };
+		C7FFCE8D2A95B22800B7CE9B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE8C2A95B22800B7CE9B /* HomeView.swift */; };
+		C7FFCE922A95E94B00B7CE9B /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE912A95E94B00B7CE9B /* HomeState.swift */; };
+		C7FFCE942A95E96400B7CE9B /* LaunchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE932A95E96400B7CE9B /* LaunchState.swift */; };
+		C7FFCE962A95E96A00B7CE9B /* RootState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE952A95E96A00B7CE9B /* RootState.swift */; };
+		C7FFCE992A95F17900B7CE9B /* LaunchCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE982A95F17900B7CE9B /* LaunchCommand.swift */; };
+		C7FFCE9B2A96191900B7CE9B /* BrowserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE9A2A96191900B7CE9B /* BrowserItem.swift */; };
+		C7FFCE9D2A961B5000B7CE9B /* BrowserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE9C2A961B5000B7CE9B /* BrowserState.swift */; };
+		C7FFCE9F2A961CCE00B7CE9B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCE9E2A961CCE00B7CE9B /* WebView.swift */; };
+		C7FFCEA12A96282500B7CE9B /* BrowserCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEA02A96282500B7CE9B /* BrowserCommand.swift */; };
+		C7FFCEA32A96F58600B7CE9B /* TabListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEA22A96F58600B7CE9B /* TabListView.swift */; };
+		C7FFCEA62A96F8D300B7CE9B /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEA52A96F8D300B7CE9B /* Modifier.swift */; };
+		C7FFCEAB2A973E0C00B7CE9B /* AlertCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEAA2A973E0C00B7CE9B /* AlertCommand.swift */; };
+		C7FFCEAD2A9743D000B7CE9B /* SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEAC2A9743D000B7CE9B /* SettingState.swift */; };
+		C7FFCEAF2A9749D200B7CE9B /* SettingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEAE2A9749D200B7CE9B /* SettingCommand.swift */; };
+		C7FFCEB12A974A9400B7CE9B /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEB02A974A9400B7CE9B /* ShareView.swift */; };
+		C7FFCEB52A97509F00B7CE9B /* WebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEB42A97509F00B7CE9B /* WebPage.swift */; };
+		C7FFCEB72A975B2F00B7CE9B /* CleanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEB62A975B2F00B7CE9B /* CleanView.swift */; };
+		C7FFCEB92A975C9F00B7CE9B /* CleanCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEB82A975C9F00B7CE9B /* CleanCommand.swift */; };
+		C7FFCEBB2A975D0600B7CE9B /* CleanState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFCEBA2A975D0600B7CE9B /* CleanState.swift */; };
+		C7FFCEC12A97668500B7CE9B /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = C7FFCEC02A97668500B7CE9B /* FacebookAEM */; };
+		C7FFCEC32A97668500B7CE9B /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = C7FFCEC22A97668500B7CE9B /* FacebookBasics */; };
+		C7FFCEC52A97668500B7CE9B /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = C7FFCEC42A97668500B7CE9B /* FacebookCore */; };
+		C7FFCEC82A9766B900B7CE9B /* SheetKit in Frameworks */ = {isa = PBXBuildFile; productRef = C7FFCEC72A9766B900B7CE9B /* SheetKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7A509AC2A99CE280018C79D /* GADCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADCommand.swift; sourceTree = "<group>"; };
+		C7A509AE2A99CE660018C79D /* GADLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADLoad.swift; sourceTree = "<group>"; };
+		C7A509B02A99CEDD0018C79D /* GADNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADNativeView.swift; sourceTree = "<group>"; };
+		C7A509B22A99CF120018C79D /* GADState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADState.swift; sourceTree = "<group>"; };
+		C7A509B42A99D4820018C79D /* admob.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = admob.json; sourceTree = "<group>"; };
+		C7FFCE712A94C4B200B7CE9B /* RoseBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoseBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FFCE742A94C4B200B7CE9B /* RoseBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseBrowserApp.swift; sourceTree = "<group>"; };
+		C7FFCE762A94C4B200B7CE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7FFCE782A94C4B300B7CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7FFCE7B2A94C4B300B7CE9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7FFCE822A95A86400B7CE9B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		C7FFCE842A95A88600B7CE9B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C7FFCE862A95AA6100B7CE9B /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		C7FFCE882A95AA7800B7CE9B /* AppCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommand.swift; sourceTree = "<group>"; };
+		C7FFCE8A2A95B22000B7CE9B /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		C7FFCE8C2A95B22800B7CE9B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C7FFCE912A95E94B00B7CE9B /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		C7FFCE932A95E96400B7CE9B /* LaunchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchState.swift; sourceTree = "<group>"; };
+		C7FFCE952A95E96A00B7CE9B /* RootState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootState.swift; sourceTree = "<group>"; };
+		C7FFCE982A95F17900B7CE9B /* LaunchCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCommand.swift; sourceTree = "<group>"; };
+		C7FFCE9A2A96191900B7CE9B /* BrowserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserItem.swift; sourceTree = "<group>"; };
+		C7FFCE9C2A961B5000B7CE9B /* BrowserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserState.swift; sourceTree = "<group>"; };
+		C7FFCE9E2A961CCE00B7CE9B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C7FFCEA02A96282500B7CE9B /* BrowserCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserCommand.swift; sourceTree = "<group>"; };
+		C7FFCEA22A96F58600B7CE9B /* TabListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabListView.swift; sourceTree = "<group>"; };
+		C7FFCEA52A96F8D300B7CE9B /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		C7FFCEAA2A973E0C00B7CE9B /* AlertCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertCommand.swift; sourceTree = "<group>"; };
+		C7FFCEAC2A9743D000B7CE9B /* SettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingState.swift; sourceTree = "<group>"; };
+		C7FFCEAE2A9749D200B7CE9B /* SettingCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCommand.swift; sourceTree = "<group>"; };
+		C7FFCEB02A974A9400B7CE9B /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		C7FFCEB42A97509F00B7CE9B /* WebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPage.swift; sourceTree = "<group>"; };
+		C7FFCEB62A975B2F00B7CE9B /* CleanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanView.swift; sourceTree = "<group>"; };
+		C7FFCEB82A975C9F00B7CE9B /* CleanCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCommand.swift; sourceTree = "<group>"; };
+		C7FFCEBA2A975D0600B7CE9B /* CleanState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanState.swift; sourceTree = "<group>"; };
+		C7FFCEC92A97675500B7CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7FFCE6E2A94C4B200B7CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FFCEC12A97668500B7CE9B /* FacebookAEM in Frameworks */,
+				C7FFCEC82A9766B900B7CE9B /* SheetKit in Frameworks */,
+				C7A509AB2A99CDDE0018C79D /* GoogleMobileAds in Frameworks */,
+				C7FFCEC52A97668500B7CE9B /* FacebookCore in Frameworks */,
+				C7FFCEC32A97668500B7CE9B /* FacebookBasics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7FFCE682A94C4B200B7CE9B = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE732A94C4B200B7CE9B /* RoseBrowser */,
+				C7FFCE722A94C4B200B7CE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7FFCE722A94C4B200B7CE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE712A94C4B200B7CE9B /* RoseBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7FFCE732A94C4B200B7CE9B /* RoseBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C7A509B42A99D4820018C79D /* admob.json */,
+				C7FFCEC92A97675500B7CE9B /* Info.plist */,
+				C7FFCE742A94C4B200B7CE9B /* RoseBrowserApp.swift */,
+				C7FFCEA42A96F8C400B7CE9B /* Help */,
+				C7FFCE972A95EA4D00B7CE9B /* View */,
+				C7FFCE8E2A95E8FF00B7CE9B /* Data */,
+				C7FFCE782A94C4B300B7CE9B /* Assets.xcassets */,
+				C7FFCE7A2A94C4B300B7CE9B /* Preview Content */,
+			);
+			path = RoseBrowser;
+			sourceTree = "<group>";
+		};
+		C7FFCE7A2A94C4B300B7CE9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE7B2A94C4B300B7CE9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7FFCE8E2A95E8FF00B7CE9B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE9A2A96191900B7CE9B /* BrowserItem.swift */,
+				C7FFCE822A95A86400B7CE9B /* Store.swift */,
+				C7FFCE862A95AA6100B7CE9B /* AppAction.swift */,
+				C7A509AE2A99CE660018C79D /* GADLoad.swift */,
+				C7FFCE8F2A95E91500B7CE9B /* AppState */,
+				C7FFCE902A95E91D00B7CE9B /* AppCommand */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C7FFCE8F2A95E91500B7CE9B /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE842A95A88600B7CE9B /* AppState.swift */,
+				C7FFCEBA2A975D0600B7CE9B /* CleanState.swift */,
+				C7FFCE912A95E94B00B7CE9B /* HomeState.swift */,
+				C7FFCE932A95E96400B7CE9B /* LaunchState.swift */,
+				C7FFCE952A95E96A00B7CE9B /* RootState.swift */,
+				C7FFCE9C2A961B5000B7CE9B /* BrowserState.swift */,
+				C7FFCEAC2A9743D000B7CE9B /* SettingState.swift */,
+				C7A509B22A99CF120018C79D /* GADState.swift */,
+			);
+			path = AppState;
+			sourceTree = "<group>";
+		};
+		C7FFCE902A95E91D00B7CE9B /* AppCommand */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE882A95AA7800B7CE9B /* AppCommand.swift */,
+				C7A509AC2A99CE280018C79D /* GADCommand.swift */,
+				C7FFCE982A95F17900B7CE9B /* LaunchCommand.swift */,
+				C7FFCEAA2A973E0C00B7CE9B /* AlertCommand.swift */,
+				C7FFCEA02A96282500B7CE9B /* BrowserCommand.swift */,
+				C7FFCEAE2A9749D200B7CE9B /* SettingCommand.swift */,
+				C7FFCEB82A975C9F00B7CE9B /* CleanCommand.swift */,
+			);
+			path = AppCommand;
+			sourceTree = "<group>";
+		};
+		C7FFCE972A95EA4D00B7CE9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCE762A94C4B200B7CE9B /* ContentView.swift */,
+				C7FFCE8A2A95B22000B7CE9B /* LaunchView.swift */,
+				C7FFCE8C2A95B22800B7CE9B /* HomeView.swift */,
+				C7FFCEA22A96F58600B7CE9B /* TabListView.swift */,
+				C7FFCEB62A975B2F00B7CE9B /* CleanView.swift */,
+				C7FFCEB42A97509F00B7CE9B /* WebPage.swift */,
+				C7FFCE9E2A961CCE00B7CE9B /* WebView.swift */,
+				C7FFCEB02A974A9400B7CE9B /* ShareView.swift */,
+				C7A509B02A99CEDD0018C79D /* GADNativeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7FFCEA42A96F8C400B7CE9B /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFCEA52A96F8D300B7CE9B /* Modifier.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7FFCE702A94C4B200B7CE9B /* RoseBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FFCE7F2A94C4B300B7CE9B /* Build configuration list for PBXNativeTarget "RoseBrowser" */;
+			buildPhases = (
+				C7FFCE6D2A94C4B200B7CE9B /* Sources */,
+				C7FFCE6E2A94C4B200B7CE9B /* Frameworks */,
+				C7FFCE6F2A94C4B200B7CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoseBrowser;
+			packageProductDependencies = (
+				C7FFCEC02A97668500B7CE9B /* FacebookAEM */,
+				C7FFCEC22A97668500B7CE9B /* FacebookBasics */,
+				C7FFCEC42A97668500B7CE9B /* FacebookCore */,
+				C7FFCEC72A9766B900B7CE9B /* SheetKit */,
+				C7A509AA2A99CDDE0018C79D /* GoogleMobileAds */,
+			);
+			productName = RoseBrowser;
+			productReference = C7FFCE712A94C4B200B7CE9B /* RoseBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7FFCE692A94C4B200B7CE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C7FFCE702A94C4B200B7CE9B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C7FFCE6C2A94C4B200B7CE9B /* Build configuration list for PBXProject "RoseBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7FFCE682A94C4B200B7CE9B;
+			packageReferences = (
+				C7FFCEBF2A97668500B7CE9B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C7FFCEC62A9766B900B7CE9B /* XCRemoteSwiftPackageReference "SheetKit" */,
+				C7A509A92A99CDDE0018C79D /* XCRemoteSwiftPackageReference "GoogleMobileAds" */,
+			);
+			productRefGroup = C7FFCE722A94C4B200B7CE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7FFCE702A94C4B200B7CE9B /* RoseBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7FFCE6F2A94C4B200B7CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A509B52A99D4820018C79D /* admob.json in Resources */,
+				C7FFCE7C2A94C4B300B7CE9B /* Preview Assets.xcassets in Resources */,
+				C7FFCE792A94C4B300B7CE9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7FFCE6D2A94C4B200B7CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FFCE992A95F17900B7CE9B /* LaunchCommand.swift in Sources */,
+				C7FFCE832A95A86400B7CE9B /* Store.swift in Sources */,
+				C7FFCEB12A974A9400B7CE9B /* ShareView.swift in Sources */,
+				C7FFCEA12A96282500B7CE9B /* BrowserCommand.swift in Sources */,
+				C7FFCE892A95AA7800B7CE9B /* AppCommand.swift in Sources */,
+				C7FFCEB92A975C9F00B7CE9B /* CleanCommand.swift in Sources */,
+				C7FFCEB52A97509F00B7CE9B /* WebPage.swift in Sources */,
+				C7FFCE772A94C4B200B7CE9B /* ContentView.swift in Sources */,
+				C7FFCE8B2A95B22000B7CE9B /* LaunchView.swift in Sources */,
+				C7FFCEB72A975B2F00B7CE9B /* CleanView.swift in Sources */,
+				C7FFCEA32A96F58600B7CE9B /* TabListView.swift in Sources */,
+				C7FFCEBB2A975D0600B7CE9B /* CleanState.swift in Sources */,
+				C7FFCEAF2A9749D200B7CE9B /* SettingCommand.swift in Sources */,
+				C7FFCE9B2A96191900B7CE9B /* BrowserItem.swift in Sources */,
+				C7FFCEA62A96F8D300B7CE9B /* Modifier.swift in Sources */,
+				C7FFCE9F2A961CCE00B7CE9B /* WebView.swift in Sources */,
+				C7FFCE942A95E96400B7CE9B /* LaunchState.swift in Sources */,
+				C7FFCE962A95E96A00B7CE9B /* RootState.swift in Sources */,
+				C7FFCE9D2A961B5000B7CE9B /* BrowserState.swift in Sources */,
+				C7FFCE922A95E94B00B7CE9B /* HomeState.swift in Sources */,
+				C7A509AD2A99CE280018C79D /* GADCommand.swift in Sources */,
+				C7A509B12A99CEDD0018C79D /* GADNativeView.swift in Sources */,
+				C7FFCE872A95AA6100B7CE9B /* AppAction.swift in Sources */,
+				C7FFCEAB2A973E0C00B7CE9B /* AlertCommand.swift in Sources */,
+				C7FFCEAD2A9743D000B7CE9B /* SettingState.swift in Sources */,
+				C7A509AF2A99CE660018C79D /* GADLoad.swift in Sources */,
+				C7FFCE8D2A95B22800B7CE9B /* HomeView.swift in Sources */,
+				C7FFCE752A94C4B200B7CE9B /* RoseBrowserApp.swift in Sources */,
+				C7A509B32A99CF120018C79D /* GADState.swift in Sources */,
+				C7FFCE852A95A88600B7CE9B /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7FFCE7D2A94C4B300B7CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7FFCE7E2A94C4B300B7CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7FFCE802A94C4B300B7CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoseBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoseBrowser/Info.plist;
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluerose.dreamerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C7FFCE812A94C4B300B7CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoseBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoseBrowser/Info.plist;
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluerose.dreamerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7FFCE6C2A94C4B200B7CE9B /* Build configuration list for PBXProject "RoseBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FFCE7D2A94C4B300B7CE9B /* Debug */,
+				C7FFCE7E2A94C4B300B7CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7FFCE7F2A94C4B300B7CE9B /* Build configuration list for PBXNativeTarget "RoseBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FFCE802A94C4B300B7CE9B /* Debug */,
+				C7FFCE812A94C4B300B7CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7A509A92A99CDDE0018C79D /* XCRemoteSwiftPackageReference "GoogleMobileAds" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanghits/GoogleMobileAds";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C7FFCEBF2A97668500B7CE9B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk/";
+			requirement = {
+				kind = exactVersion;
+				version = 14.0.0;
+			};
+		};
+		C7FFCEC62A9766B900B7CE9B /* XCRemoteSwiftPackageReference "SheetKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fatbobman/SheetKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7A509AA2A99CDDE0018C79D /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7A509A92A99CDDE0018C79D /* XCRemoteSwiftPackageReference "GoogleMobileAds" */;
+			productName = GoogleMobileAds;
+		};
+		C7FFCEC02A97668500B7CE9B /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7FFCEBF2A97668500B7CE9B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		C7FFCEC22A97668500B7CE9B /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7FFCEBF2A97668500B7CE9B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		C7FFCEC42A97668500B7CE9B /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7FFCEBF2A97668500B7CE9B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		C7FFCEC72A9766B900B7CE9B /* SheetKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7FFCEC62A9766B900B7CE9B /* XCRemoteSwiftPackageReference "SheetKit" */;
+			productName = SheetKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C7FFCE692A94C4B200B7CE9B /* Project object */;
+}

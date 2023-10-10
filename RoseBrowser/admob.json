@@ -1,0 +1,19 @@
+{
+    "showTimes": 30,
+    "clickTimes": 5,
+    "ads": [{
+            "key": "interstitial",
+            "value": [{
+                "theAdPriority": 1,
+                "theAdID": "ca-app-pub-8390615644597617/6028613538"
+            }]
+        },
+        {
+            "key": "native",
+            "value": [{
+                "theAdPriority": 1,
+                "theAdID": "ca-app-pub-8390615644597617/1506667178"
+            }]
+        }
+    ]
+}
